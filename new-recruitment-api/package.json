@@ -12,12 +12,17 @@
   "author": "MasterBorn",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.0.1",
+    "express-rate-limit": "^8.2.1",
     "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
+    "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.0",
+    "@types/express-rate-limit": "^5.1.3",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.0",
     "@types/supertest": "^6.0.2",
